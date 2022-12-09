@@ -15,6 +15,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <version>0.0.1-SNAPSHOT</version>
     <name>Student</name>
     <description>Student</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -55,6 +56,11 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
